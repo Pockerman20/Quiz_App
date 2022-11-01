@@ -90,6 +90,7 @@ class _MyAppState extends State<MyApp> {
     // _questions = []; // will not work if _questions is const
 
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
           title: const Text('My First App'),
